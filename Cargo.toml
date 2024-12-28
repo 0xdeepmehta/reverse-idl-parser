@@ -1,7 +1,10 @@
 [package]
 name = "atlas-idl-schema"
+description="A Rust library for transforming Solana program JSON IDL files into native Rust objects, providing tools to parse and decode program account data into human-readable JSON"
 version = "0.1.1"
 edition = "2021"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/0xdeepmehta/reverse-idl-parser"
 
 [dependencies]
 anyhow = "1.0.93"
